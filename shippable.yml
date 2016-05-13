@@ -46,7 +46,7 @@ integrations:
        type: aws
        target: eb_docker
        application_name: "shippable-demo-eb"
-       env_name: "shippable-demo-eb2"
+       env_name: "shippabledemoeb"
        bucket_name: "elasticbeanstalk-eu-west-1-994684993361"
        region: "eu-west-1"
        image_name: "$DOCKER_HUB_URL/$REPO"
